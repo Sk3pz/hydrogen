@@ -1,0 +1,44 @@
+name: Hydrogen3
+version: '${project.version}'
+main: es.skepz.hydrogen.Core
+api-version: '1.20'
+prefix: Hydrogen
+authors: [ Skepz ]
+description: A fully featured core for minecraft servers
+commands:
+  spawn:
+    description: teleports you to spawn!
+  setspawn:
+    description: sets your current location to spawn
+  home:
+    description: go to a home
+  sethome:
+    description: set a home at your current location
+  delhome:
+    description: delete a home
+  meta:
+    description: Change the itemmeta of your current item
+  enchant:
+    description: enchant an item
+    aliases: ench
+  warp:
+    description: warp to a location
+  setwarp:
+    description: set a warp location
+  delwarp:
+    description: delete a warp
+  tpa:
+    description: request to teleport to a player
+  tphere:
+    description: request to teleport a player to you
+    aliases: tpahere
+  tpaccept:
+    description: accept a request for teleportation
+  tpdeny:
+    description: deny a request for teleportation
+    aliases: tpadeny
+  tpcancel:
+    description: cancel a request you sent for teleportation
+    aliases: tpacancel
+  tplist:
+    description: list any incoming requests to teleport
